@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Super Mercado São Francisco</title>
+    <link rel="stylesheet" href="Estilos.css"> <!-- Linkando o arquivo CSS -->
+</head>
+<body>
+    <header>
+        <h1>Supermercado São Francisco</h1>
+        <nav>
+            <a href="index.html">Tela incial</a> | 
+             <a href="carrinho.html">Carrinho</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Finalizar Compra</h2>
+
+        <div class="checkout">
+            <h3>Informações de Contato</h3>
+            <form action="finalizar-compra.html" method="POST">
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+                </div>
+
+                <h3>Endereço de Entrega</h3>
+                <div class="form-group">
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco" placeholder="Digite o endereço de entrega" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade" placeholder="Digite sua cidade" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep" name="cep" placeholder="Digite seu CEP" required>
+                </div>
+
+                <h3>Forma de Pagamento</h3>
+                <div class="form-group">
+                    <label for="cartao">Número do Cartão:</label>
+                    <input type="text" id="cartao" name="cartao" placeholder="Digite o número do cartão" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="vencimento">Data de Vencimento:</label>
+                    <input type="month" id="vencimento" name="vencimento" required>
+                </div>
+
+                <div class="form-group cvv-group">
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" maxlength="3" placeholder="XXX">
+                </div>
+                
