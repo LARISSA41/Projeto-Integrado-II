@@ -29,6 +29,8 @@ Para rodar o projeto localmente, siga os passos abaixo:
    git clone https://github.com/SEU-USUARIO/Super-Mercado-Sao-Francisco.git
 cd Super-Mercado-Sao-Francisco
 Super-Mercado-Sao-Francisco/
+
+
 ├── index.html              # Página inicial (home)
 ├── cadastro.html           # Página de cadastro de usuário
 ├── login.html              # Página de login de usuário
