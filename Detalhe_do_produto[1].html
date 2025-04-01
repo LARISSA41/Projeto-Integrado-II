@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Produto - Super Mercado São Francisco</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linkando o arquivo CSS -->
+</head>
+<body>
+    <header>
+        <h1>Super Mercado São Francisco</h1>
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="cadastro.html">Criar Conta</a> | 
+            <a href="login.html">Entrar</a> | 
+            <a href="carrinho.html">Carrinho</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Detalhes do Produto</h2>
+
+        <!-- Seção de detalhes do produto -->
+        <div class="detalhes-produto">
+            <div class="imagem-produto">
+                <img src="produto1.jpg" alt="Produto 1">
+            </div>
+
+            <div class="info-produto">
+                <h3>Nome do Produto</h3>
+                <p class="descricao">Descrição detalhada do produto. Aqui você pode colocar informações como o que é, como utilizar, ingredientes (para alimentos), informações nutricionais e outros dados relevantes para o cliente.</p>
+                <p class="preco">Preço: R$ 20,00</p>
+                <p class="quantidade">Quantidade disponível: 50 unidades</p>
+
+                <div class="opcoes">
+                    <label for="quantidade">Quantidade:</label>
+                    <input type="number" id="quantidade" name="quantidade" min="1" max="10" value="1">
+                </div>
+
+                <button>Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Super Mercado São Francisco - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
